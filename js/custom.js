@@ -54,6 +54,33 @@
         } else {
             $('.position_top').removeClass('sticky');
         }
+
+        if ($(this).scrollTop() > 300) {
+            $('.about-area__left').addClass('reveal')
+            $('.about-area__right').addClass('reveal')
+        }
+        else{
+            $('.about-area__left').removeClass('reveal')
+            $('.about-area__right').removeClass('reveal')   
+        }
+
+        if ($(this).scrollTop() > 1500) {
+            $('.club-facility_1').addClass('reveal')
+            $('.club-facility_2').addClass('reveal')
+            $('.club-facility_3').addClass('reveal')
+        }
+        else{
+            $('.club-facility_1').removeClass('reveal')
+            $('.club-facility_2').removeClass('reveal')
+            $('.club-facility_3').removeClass('reveal')
+        }
+
+        if ($(this).scrollTop() > 1700) {
+            $('.sec-mar-top').addClass('reveal')
+        }
+        else{
+            $('.sec-mar-top').removeClass('reveal')
+        }
     });
 
 
