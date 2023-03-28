@@ -270,6 +270,37 @@ input:focus {
   animation-delay: 0.2s;
 }
 
+
+::-webkit-scrollbar {
+  width: 30px;
+}
+body{
+  overflow: auto;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  border: 2px solid white;
+  background: #22B14C;
+  background-image: url(../images/golf\ hole\ 2.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: url("../images/golf\ ball.png"); 
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  background-repeat:none;
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+/* Handle on hover */
+
+
 @-webkit-keyframes sk-cubeGridScaleDelay {
   100% {
     transform: scale3D(1, 1, 1);
