@@ -300,6 +300,11 @@ body{
 
 /* Handle on hover */
 
+/*header edit*/
+header{
+  background-color: rgb(43, 40, 40);
+}
+
 
 @-webkit-keyframes sk-cubeGridScaleDelay {
   100% {
@@ -716,8 +721,17 @@ header .logo a img {
   color: #EFD912;
 }
 .main-nav ul li a:hover {
-  color: #EFD912;
+  color:  black;
 }
+
+.main-nav ul li:hover{
+  background-color: rgb(128, 128, 128);
+  border-radius:0 0 20% 20%;
+  transition: 0.3s;
+  transform: translate(0,7px);
+}
+
+
 .main-nav ul li i {
   width: 30px;
   font-size: 14px;
@@ -1128,7 +1142,8 @@ header.header-two .main-nav ul li ul.sub-menu {
   }
 }
 .hero-wrapper .hero-content p {
-  font-size: 16px;
+  font-size: 25px;
+  opacity: 0.5;
   color: #FFFFFF;
   margin: 0;
   font-weight: 400;
