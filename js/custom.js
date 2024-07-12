@@ -1,4 +1,6 @@
-navigator.geolocation.getCurrentPosition((showPosition))
+console.log('FROM CUSTOM JS')
+
+console.log(navigator.geolocation.getCurrentPosition((showPosition)))
 
 
 
